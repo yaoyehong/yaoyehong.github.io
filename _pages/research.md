@@ -5,8 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-# Research
-
 Our research focuses on the mechanics-guided design of intelligent materials, structures, and robotics.
 
 By integrating solid mechanics, materials science, advanced manufacturing, and robotics, we seek to understand how geometry, topology, and material properties can be engineered to achieve programmable shape transformations, adaptive behaviors, and multifunctional capabilities.
