@@ -4,6 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+![Research Overview]({{ '/images/research-overview.jpg' | relative_url }})
 
 Our research focuses on the mechanics-guided design of intelligent materials, structures, and robotics.
 
