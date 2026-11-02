@@ -14,14 +14,6 @@ author_profile: true
   </div>
 {% endif %}
 
-{% include base_path %}
-<p>Total publications found: {{ site.publications.size }}</p>
-
-<p>Publications with order:
-{{ ordered_publications.size }}</p>
-
-<p>Publications without order:
-{{ unordered_publications.size }}</p>
 
 <!-- Step 1: Publications with custom order numbers -->
 {% assign ordered_publications = site.publications
