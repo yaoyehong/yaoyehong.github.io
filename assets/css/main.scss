@@ -36,3 +36,15 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+/* Publication title color */
+.archive__item-title a,
+.archive__item-title a:visited {
+  color: rgb(43, 93, 190) !important;
+}
+
+/* Publication title hover color */
+.archive__item-title a:hover {
+  color: rgb(43, 93, 190) !important;
+  text-decoration: underline;
+}
