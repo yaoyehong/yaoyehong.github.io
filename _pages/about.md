@@ -10,9 +10,6 @@ redirect_from:
 ## <span style="color: rgb(43, 93, 190);">Welcome!</span>
 
 
-<img src="{{ '/images/research-overview.jpg' | relative_url }}" alt="Research overview" style="width: 100%; height: auto; display: block; margin: 20px auto;">
-
-
 ## <span style="color: rgb(43, 93, 190);">Research Interests</span>
 The Hong group focuses on 
 ### • Physically Intelligent Soft Robotics
@@ -21,6 +18,7 @@ The Hong group focuses on
 
 ### • Smart and Active Materials
 
+<img src="{{ '/images/research-overview.jpg' | relative_url }}" alt="Research overview" style="width: 100%; height: auto; display: block; margin: 20px auto;">
 
 ## <span style="color: rgb(43, 93, 190);">PhD Openings (Fall 2027)</span>
 
