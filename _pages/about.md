@@ -7,37 +7,26 @@ redirect_from:
   - /about.html
 ---
 
-# Welcome!
+## <span style="color: rgb(43, 93, 190);">Welcome!</span>
 
-My research focuses on the mechanics-guided design of **physically intelligent soft robotic systems, shape-morphing mechanical metamaterials, and smart and active materials**.
+## <span style="color: rgb(43, 93, 190);">Research Interests</span>
+The Hong group focuses on 
+### • Physically Intelligent Soft Robotics
 
+### • Shape-Morphing Mechanical Metamaterials
 
-## Research Interests
-
-My research focuses on three interconnected areas:
-
-### Physically Intelligent Soft Robotics
-
-### Shape-Morphing Mechanical Metamaterials
-
-### Smart and Active Materials
+### • Smart and Active Materials
 
 
-## PhD Openings (2027)
+## <span style="color: rgb(43, 93, 190);">PhD Openings (Fall 2027)</span>
 
-**We are recruiting motivated PhD students for Fall 2027!**
+We are recruiting motivated PhD students for Fall 2027!
 
 Candidates with backgrounds in solid mechanics, materials science, robotics, advanced manufacturing, artificial intelligence, and related disciplines are encouraged to apply.
 
 Interested candidates are welcome to contact me directly.
 
-## Contact
-
-**Yaoye Hong**
-
-Department of Mechanical Engineering
-
-The University of Hong Kong
+## <span style="color: rgb(43, 93, 190);">Contact</span>
 
 Email: 
 - Personal: [yaoyehongs@gmail.com](mailto:yaoyehongs@gmail.com)
