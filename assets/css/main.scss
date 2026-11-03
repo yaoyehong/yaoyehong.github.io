@@ -2,10 +2,9 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Main stylesheet for Yaoye Hong's academic website.
+ * The first two lines are required by Jekyll.
+ * Keep the original imports for the Academic Pages theme.
  */
 
 @import
@@ -37,78 +36,160 @@
     "layout/sidebar"
 ;
 
-/* Publication title color */
+
+/* ==========================================
+   1. Publication Title Color
+   RGB (43, 93, 190)
+   ========================================== */
+
 .archive__item-title a,
 .archive__item-title a:visited {
   color: rgb(43, 93, 190) !important;
 }
 
-/* Publication title hover color */
-.archive__item-title a:hover {
+.archive__item-title a:hover,
+.archive__item-title a:focus {
   color: rgb(43, 93, 190) !important;
   text-decoration: underline;
 }
 
+
 /* ==========================================
-   Black Navigation Bar with Bold White Text
+   2. Black Navigation Bar Background
    ========================================== */
 
-/* Entire navigation background */
 .masthead,
 .masthead__inner-wrap,
-.masthead .greedy-nav {
+.masthead__menu,
+.masthead .greedy-nav,
+.masthead .masthead__menu-item {
+  background: #000000 !important;
   background-color: #000000 !important;
 }
 
-/* Website title and navigation links */
+/* Remove light-colored header borders */
+.masthead {
+  border-bottom: 1px solid #222222 !important;
+}
+
+
+/* ==========================================
+   3. Bold White Navigation Text
+   ========================================== */
+
+.masthead a,
+.masthead a:link,
+.masthead a:visited,
 .masthead .site-title,
 .masthead .greedy-nav a,
-.masthead .greedy-nav .visible-links a {
+.masthead .greedy-nav .visible-links a,
+.masthead .masthead__menu-item a {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  text-decoration: none;
+}
+
+/* Website title */
+.masthead .site-title {
   color: #FFFFFF !important;
   font-weight: 700 !important;
 }
 
-/* Hover effects */
+
+/* ==========================================
+   4. Navigation Hover Effects
+   ========================================== */
+
 .masthead .greedy-nav a:hover,
-.masthead .greedy-nav a:focus {
+.masthead .greedy-nav a:focus,
+.masthead .masthead__menu-item a:hover {
   color: #FFFFFF !important;
   background-color: #222222 !important;
 }
 
-/* Navigation active underline */
-.masthead .greedy-nav .visible-links a::before {
+/* White underline on hover */
+.masthead .greedy-nav a::before,
+.masthead .greedy-nav a::after {
   background-color: #FFFFFF !important;
 }
 
-/* Navigation item backgrounds */
-.masthead .masthead__menu-item {
-  background-color: #000000 !important;
-}
 
-/* Active navigation item */
-.masthead .masthead__menu-item.selected a {
+/* ==========================================
+   5. Active Navigation Item
+   ========================================== */
+
+.masthead .masthead__menu-item.selected a,
+.masthead .greedy-nav .visible-links .active a {
   color: #FFFFFF !important;
   font-weight: 700 !important;
   border-bottom: 2px solid #FFFFFF !important;
 }
 
-/* Dropdown navigation */
+
+/* ==========================================
+   6. Dropdown Menu
+   ========================================== */
+
 .masthead .greedy-nav .hidden-links,
+.masthead .greedy-nav .hidden-links li,
 .masthead .greedy-nav .hidden-links a {
   background-color: #000000 !important;
   color: #FFFFFF !important;
+  font-weight: 700 !important;
 }
 
-/* Mobile navigation button */
+.masthead .greedy-nav .hidden-links a:hover {
+  background-color: #222222 !important;
+  color: #FFFFFF !important;
+}
+
+
+/* ==========================================
+   7. Mobile Navigation
+   ========================================== */
+
 .masthead .greedy-nav button {
   background-color: #000000 !important;
   color: #FFFFFF !important;
 }
 
-/* Theme toggle icon */
+/* Mobile menu icon */
+.masthead .greedy-nav .navicon,
+.masthead .greedy-nav .navicon::before,
+.masthead .greedy-nav .navicon::after {
+  background-color: #FFFFFF !important;
+}
+
+
+/* ==========================================
+   8. Theme Toggle Icon
+   ========================================== */
+
 .masthead #theme-toggle,
 .masthead #theme-toggle a,
 .masthead #theme-toggle i,
+.masthead #theme-toggle svg,
+.masthead .theme-toggle,
+.masthead .theme-toggle i {
+  color: #FFFFFF !important;
+}
+
+/* SVG icons inherit white where applicable */
 .masthead #theme-toggle svg {
+  stroke: #FFFFFF !important;
+}
+
+
+/* ==========================================
+   9. Consistent Header Colors in Dark Mode
+   ========================================== */
+
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .masthead .greedy-nav,
+html[data-theme="dark"] .masthead__inner-wrap {
+  background-color: #000000 !important;
+}
+
+html[data-theme="dark"] .masthead a {
   color: #FFFFFF !important;
 }
