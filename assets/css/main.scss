@@ -213,3 +213,52 @@ html[data-theme="dark"] .masthead a {
   background-color: #000000 !important;
 }
 
+
+/* ==========================================
+   Global Font: Century Gothic
+   ========================================== */
+
+/* Main website text */
+html,
+body,
+p,
+li,
+blockquote,
+table,
+th,
+td,
+input,
+button,
+select,
+textarea {
+  font-family: "Century Gothic", "CenturyGothic",
+               "Trebuchet MS", Arial, sans-serif !important;
+}
+
+/* All headings */
+h1, h2, h3, h4, h5, h6,
+.page__title,
+.archive__item-title {
+  font-family: "Century Gothic", "CenturyGothic",
+               "Trebuchet MS", Arial, sans-serif !important;
+}
+
+/* Navigation bar and website title */
+.masthead .site-title,
+.masthead .greedy-nav a,
+.masthead .masthead__menu-item a {
+  font-family: "Century Gothic", "CenturyGothic",
+               "Trebuchet MS", Arial, sans-serif !important;
+}
+
+/* Sidebar, author biography, and page content */
+.sidebar,
+.author__name,
+.author__bio,
+.page__content,
+.archive,
+.page__meta {
+  font-family: "Century Gothic", "CenturyGothic",
+               "Trebuchet MS", Arial, sans-serif !important;
+}
+
