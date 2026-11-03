@@ -67,10 +67,7 @@
   background-color: #000000 !important;
 }
 
-/* Remove light-colored header borders */
-.masthead {
-  border-bottom: 1px solid #222222 !important;
-}
+
 
 
 /* ==========================================
@@ -193,3 +190,26 @@ html[data-theme="dark"] .masthead__inner-wrap {
 html[data-theme="dark"] .masthead a {
   color: #FFFFFF !important;
 }
+
+
+/* ==========================================
+   Remove Navigation Bar Boundary Lines
+   ========================================== */
+
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead .greedy-nav {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Keep the black background */
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.masthead .greedy-nav {
+  background-color: #000000 !important;
+}
+
