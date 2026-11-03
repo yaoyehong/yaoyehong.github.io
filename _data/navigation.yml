@@ -16,15 +16,15 @@ main:
 
   - title: "Publications"
     url: /publications/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
         
   - title: "People"
     url: /people/
     
   - title: "CV"
     url: /cv/
+
+  - title: "Gallery"
+    url: /gallery/
     
   - title: "Openings"
     url: /openings/
