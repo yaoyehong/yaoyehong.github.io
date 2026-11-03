@@ -25,10 +25,13 @@ University of Pennsylvania, Philadelphia, PA, USA
 
 ## <span style="color: rgb(43, 93, 190);">Education</span>
 
-- **Ph.D. in Mechanical Engineering** | 07/2023  
+- **Ph.D. in Mechanical Engineering** | 2019-2023  
 North Carolina State University, Raleigh, NC, USA  
 Advisor: Prof. Jie Yin
-
+- **M.S. in Mechanical Engineering** | 2016-2018  
+  Boston University, Boston, MA, USA  
+- **B.S. in Mechanical Engineering** | 2011-2015  
+  Nanjing University of Aeronautics and Astronautics, Nanjing, China
 
 
 ## <span style="color: rgb(43, 93, 190);">Selected Publications</span>
