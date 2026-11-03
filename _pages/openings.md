@@ -7,7 +7,7 @@ author_profile: true
 
 
 
-## <span style="color: rgb(43, 93, 190);">Multiple fully funded PhD positions are available in the Department of Mechanical Engineering at The University of Hong Kong (HKU) for Fall 2027.</span>
+## <span style="color: rgb(43, 93, 190);">Multiple fully funded PhD positions are available in the Department of Mechanical Engineering at The University of Hong Kong (HKU) for Fall 2027 and Spring 2028.</span>
 
 We are seeking highly motivated and creative students to join our research group and pursue interdisciplinary research at the intersection of mechanics, materials science, advanced manufacturing, and robotics.
 
