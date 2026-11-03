@@ -15,7 +15,7 @@ redirect_from:
 Department of Mechanical Engineering  
 The University of Hong Kong, Hong Kong SAR
 
-- **Research Associate** | 09/2025 – 10/2025  
+- **Research Associate** | 09/2025 – 10/2026  
 North Carolina State University, Raleigh, NC, USA  
 
 - **Postdoctoral Associate** | 08/2023 – 08/2025  
