@@ -48,3 +48,67 @@
   color: rgb(43, 93, 190) !important;
   text-decoration: underline;
 }
+
+/* ==========================================
+   Black Navigation Bar with Bold White Text
+   ========================================== */
+
+/* Entire navigation background */
+.masthead,
+.masthead__inner-wrap,
+.masthead .greedy-nav {
+  background-color: #000000 !important;
+}
+
+/* Website title and navigation links */
+.masthead .site-title,
+.masthead .greedy-nav a,
+.masthead .greedy-nav .visible-links a {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+}
+
+/* Hover effects */
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav a:focus {
+  color: #FFFFFF !important;
+  background-color: #222222 !important;
+}
+
+/* Navigation active underline */
+.masthead .greedy-nav .visible-links a::before {
+  background-color: #FFFFFF !important;
+}
+
+/* Navigation item backgrounds */
+.masthead .masthead__menu-item {
+  background-color: #000000 !important;
+}
+
+/* Active navigation item */
+.masthead .masthead__menu-item.selected a {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid #FFFFFF !important;
+}
+
+/* Dropdown navigation */
+.masthead .greedy-nav .hidden-links,
+.masthead .greedy-nav .hidden-links a {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+/* Mobile navigation button */
+.masthead .greedy-nav button {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+/* Theme toggle icon */
+.masthead #theme-toggle,
+.masthead #theme-toggle a,
+.masthead #theme-toggle i,
+.masthead #theme-toggle svg {
+  color: #FFFFFF !important;
+}
