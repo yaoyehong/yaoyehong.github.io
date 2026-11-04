@@ -262,3 +262,18 @@ h1, h2, h3, h4, h5, h6,
                "Trebuchet MS", Arial, sans-serif !important;
 }
 
+/* Keep navigation text vertically centered */
+.masthead .greedy-nav .visible-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust spacing on smaller screens */
+@media (max-width: 768px) {
+  .masthead .masthead__inner-wrap {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+}
+
