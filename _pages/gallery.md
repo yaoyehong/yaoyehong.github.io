@@ -34,28 +34,10 @@ Thanks for stopping by, wherever you are!
 
 </div>
 
-<p style="font-size: 0.85em; color: #777;">
-  Visitor locations are approximate.
-</p>
-
-
-<div style="text-align: center; margin: 12px 0 24px;">
-  <a href="YOUR_MAPMYVISITORS_STATS_URL"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="color: #2B5DBE; font-weight: bold;">
-    View Live Visitor Regions and Statistics
-  </a>
-</div>
-
-
 <!-- Existing MapMyVisitors map remains above -->
 
-<h3 style="color: rgb(43, 93, 190);">
-  Visitors by Country
-</h3>
-
 <div style="width: 100%; margin: 20px 0;">
+
   <script
     defer
     src="https://statable.com/js/tcw.js"
@@ -65,4 +47,5 @@ Thanks for stopping by, wherever you are!
     data-limit="10"
     data-theme="light">
   </script>
+
 </div>
