@@ -263,12 +263,18 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
+
 /* ==========================================
    Navigation Layout
    Name Left / Menu Right
    ========================================== */
 
-/* Make header span the full browser width */
+/* Remove the theme's bottom separator line */
+.masthead::after {
+  display: none !important;
+}
+
+/* Full-width header */
 .masthead .masthead__inner-wrap {
   max-width: none !important;
   width: 100% !important;
@@ -277,38 +283,42 @@ h1, h2, h3, h4, h5, h6,
   padding-right: 3.5% !important;
 }
 
-/* Make menu container full width */
+/* Full-width menu container */
 .masthead .masthead__menu {
   width: 100% !important;
 }
 
-/* Reserve space on the left for the name */
+/* Reserve room for website name */
 .masthead .greedy-nav {
   position: relative !important;
   width: 100% !important;
+  min-width: 0 !important;
+  min-height: 3rem !important;
   box-sizing: border-box !important;
   padding-left: 190px !important;
 }
 
-/* Push navigation links to the right */
+/* Move navigation links to the far right */
 .masthead .greedy-nav .visible-links {
   display: table !important;
-  width: auto !important;
+  width: max-content !important;
   margin-left: auto !important;
   margin-right: 0 !important;
   clear: none !important;
 }
 
-/* Position Yaoye Hong on the far left */
+/* Keep website name on the far left */
 .masthead .greedy-nav .visible-links > li:first-child {
   position: absolute !important;
   left: 0 !important;
-  top: 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%);
   margin: 0 !important;
   padding-right: 0 !important;
+  white-space: nowrap !important;
 }
 
-/* Keep menu items horizontally aligned */
+/* Keep menu links horizontally aligned */
 .masthead .greedy-nav .visible-links > li:not(:first-child) {
   display: table-cell !important;
   vertical-align: middle !important;
@@ -319,7 +329,7 @@ h1, h2, h3, h4, h5, h6,
   display: none !important;
 }
 
-/* Adjust layout for smaller screens */
+/* Adjust spacing for smaller screens */
 @media (max-width: 768px) {
   .masthead .masthead__inner-wrap {
     padding-left: 16px !important;
