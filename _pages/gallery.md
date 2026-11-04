@@ -34,18 +34,3 @@ Thanks for stopping by, wherever you are!
 
 </div>
 
-<!-- Existing MapMyVisitors map remains above -->
-
-<div style="width: 100%; margin: 20px 0;">
-
-  <script
-    defer
-    src="https://statable.com/js/tcw.js"
-    data-hash="YOUR_PUBLIC_HASH"
-    data-period="90d"
-    data-format="numbers"
-    data-limit="10"
-    data-theme="light">
-  </script>
-
-</div>
