@@ -23,7 +23,7 @@ repository               : "yaoyehong/yaoyehong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_github.jpg"
+  avatar           : "profile_github.png"
   name             : "Yaoye Hong"
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor in Mechanical Engineering at the University of Hong Kong (HKU)."
