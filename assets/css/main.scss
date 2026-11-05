@@ -390,3 +390,12 @@ h1, h2, h3, h4, h5, h6,
   border-bottom-color: #FFFFFF !important;
 }
 
+
+
+/* ==========================================
+   Hide Website Footer
+   ========================================== */
+
+.page__footer {
+  display: none !important;
+}
