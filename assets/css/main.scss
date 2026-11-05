@@ -345,3 +345,48 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+
+
+/* ==========================================
+   Fix Navigation Vertical Alignment
+   ========================================== */
+
+/* Standardize navigation link height */
+.masthead .greedy-nav .visible-links > li > a {
+  line-height: 1.5 !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  box-sizing: border-box !important;
+}
+
+/* Vertically center website name */
+.masthead .greedy-nav .visible-links > li:first-child {
+  top: 0 !important;
+  bottom: 0 !important;
+  transform: none !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Center name within its link */
+.masthead .greedy-nav .visible-links > li:first-child > a {
+  display: flex !important;
+  align-items: center !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Keep all navigation links vertically centered */
+.masthead .greedy-nav .visible-links > li:not(:first-child) {
+  vertical-align: middle !important;
+}
+
+/* Prevent active underline from shifting link height */
+.masthead .greedy-nav .visible-links > li > a {
+  border-bottom: 2px solid transparent !important;
+}
+
+.masthead .greedy-nav .visible-links > li.selected > a {
+  border-bottom-color: #FFFFFF !important;
+}
+
