@@ -399,3 +399,14 @@ h1, h2, h3, h4, h5, h6,
 .page__footer {
   display: none !important;
 }
+
+
+/* ==========================================
+   Fine-tune Website Title Vertical Alignment
+   ========================================== */
+
+.masthead .greedy-nav .visible-links > li:first-child > a {
+  position: relative !important;
+  top: -4px !important;
+}
+
