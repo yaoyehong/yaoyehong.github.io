@@ -410,3 +410,32 @@ h1, h2, h3, h4, h5, h6,
   top: -4px !important;
 }
 
+
+/* ==========================================
+   Navigation Bar Font Size
+   ========================================== */
+
+/* All navigation menu links */
+.masthead .greedy-nav .visible-links a {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+
+/* Website title: Hong Group */
+.masthead .greedy-nav .masthead__menu-item--lg a {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+
+/* Smaller font sizes for mobile screens */
+@media (max-width: 768px) {
+  .masthead .greedy-nav .visible-links a {
+    font-size: 18px !important;
+  }
+
+  .masthead .greedy-nav .masthead__menu-item--lg a {
+    font-size: 18px !important;
+  }
+}
+
+
