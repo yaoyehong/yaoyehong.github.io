@@ -411,6 +411,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 
+
+/* ==========================================
+   Adjust Hong Group Vertical Position
+   ========================================== */
+
+.masthead .greedy-nav .visible-links > li:first-child > a {
+  position: relative !important;
+  top: 3px !important;
+}
+
+
+
+
 /* ==========================================
    Navigation Bar Font Size
    ========================================== */
