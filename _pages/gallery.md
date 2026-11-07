@@ -29,7 +29,7 @@ Thanks for stopping by, wherever you are!
 
   <script type="text/javascript"
     id="mapmyvisitors"
-    src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=c1FL8pMk1b7zaOwFGjv316BsJ0p594jMcX53m_uq-Bc&co=dfedf7&cmo=53cbff&cmn=463acc&ct=0a0101">
+    src="https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=n&d=c1FL8pMk1b7zaOwFGjv316BsJ0p594jMcX53m_uq-Bc&co=dfedf7&cmo=5B21B6&cmn=463acc&ct=0a0101">
   </script>
 
 </div>
